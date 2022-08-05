@@ -5,8 +5,8 @@
 }
 
 .container header {
-    width: 50%;
-    margin: 84px 0 24px;
+    width: 80%;
+    margin: 24px 0 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,22 +24,20 @@
     align-items: center;
 }
 .container input {
-    width: 50%;
+    width: 80%;
     padding: 24px;
-
     background: #e6e6e6;
     border-radius: 5px;
     border: none;
-
     font-size: 16px;
 }
 
 .container button {
-    width: 50%;
+    width: 80%;
     padding: 24px;
     font-weight: 700;
     font-size: 16px;
-    
+ 
     background: peru;
     
     border-radius: 5px;

@@ -34,6 +34,7 @@ export function Home() {
       type="text" 
       placeholder="Digite o nome..."
       onChange={e => setStudentName(e.target.value)}
+      onKeyPress={e => e.key === "Enter" && handleAddStudent()}
     />
     
     <button type="button" onClick={handleAddStudent}>
